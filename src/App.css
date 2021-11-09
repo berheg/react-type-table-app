@@ -1,0 +1,59 @@
+body{
+  width: 500px;
+}
+.App {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 5%;
+  left: 100px;
+  margin:0px;
+ height:100%;
+}
+
+form{
+  alignSelf: left;
+  textAlign: center;
+}
+.searchInput{
+  border-color: blue;
+  border-radius: 5px;
+  height: 30px;
+  align-self: left;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+table tr:nth-child(odd) {
+  background-color: white;
+}
+table, th, td {
+  border: 1px;
+  text-align: left;
+}
+th{
+  height: 40px;
+  background-color: #f2f2f2;
+  font: normal;
+}
+tr{
+  height: 30px;
+  border-left: solid;
+  border-spacing: 0;
+}
+
+.sort-btn{
+  float:right;
+  text-align: right;
+  margin-right: 5px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
