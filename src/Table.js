@@ -51,17 +51,6 @@ function Table({ columns, data }) {
         setGlobalFilter={setGlobalFilter}
       />
 
-      {headerGroups.map((headerGroup) =>
-        headerGroup.headers.map((column) =>
-          column.Filter ? (
-            <div key={column.id}>
-              <label for={column.id}>{column.render("Header")}: </label>
-              {column.render("Filter")}
-            </div>
-          ) : null
-        )
-      )}
-
     <table {...getTableProps()} border="1">
 
       <thead>
